@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="lotto.css" />
+    <title>Maor's game</title>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script type="module" src="lotto_js/app_lotto.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-5 text-center">Play for fun: Lotto!</h1>
+      <div class="text-center mt-3 justify-content-evenly d-flex py-5">
+        <button class="btn btn-light" id="start_btn">start</button>
+        <button class="btn btn-dark" id="reset_btn">reset</button>
+      </div>
+      <div id="id_balls" class="d-flex justify-content-center"></div>
+    </div>
+  </body>
+</html>
